@@ -1,0 +1,123 @@
+.section{
+    height: fit-content;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 80%;
+    height: 80%;
+    /* background-color: aqua; */
+
+}
+.formTitle{
+    font-size: 2.7rem;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: darkorange;
+}
+
+.div1{
+    height: fit-content;
+    width: 60vw;
+    /* background-color: rgb(215, 211, 211); */
+    /* border: 5px solid darkorange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.div2{
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center ;
+    /* background-color: red; */
+}
+
+.formDiv{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: fit-content;
+    /* background-color: red; */
+    width: 80%;
+    /* height: 70%; */
+    /* gap:2rem; */
+    flex-direction: column;
+    color: darkorange;
+}
+
+.label{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input{
+    height: 2rem;
+}
+
+.textarea{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.post{
+    height: fit-content;
+    border: 10px solid white;
+    color: black;
+    width: 50vw;
+    margin: 20px;
+    background-color: white;
+    list-style: none;
+    border-radius: 12px;
+}
+
+.submitButton{
+    background-color: darkorange;
+    margin: 10px 0;
+    width: 100px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.submitButton:hover{
+    background-color: white;
+    color: darkorange;
+}
+  
+.author{
+    display: flex;
+    justify-content: space-between;
+    color: darkorange;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    color: darkorange;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width:600px){
+    .post{
+        width: 80vw;
+    }
+    .div1,.div2{
+        width: 90vw;
+    }
+}
